@@ -1,5 +1,11 @@
 $content-background-color: #edece4;
 
+@media print {
+  .nav-div, #why-div, #where-div {
+    display: none;
+  }
+}
+
 body {
   //background-color: #fcc7f8;
   background-image: url("images/cones copy.jpg");
