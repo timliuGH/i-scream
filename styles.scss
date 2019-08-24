@@ -1,3 +1,5 @@
+$content-background-color: #edece4;
+
 body {
   //background-color: #fcc7f8;
   background-image: url("images/cones copy.jpg");
@@ -16,10 +18,9 @@ body {
 }
 
 .container {
-  background-color: #edece4;
-  margin-top: 50px;
+  background-color: $content-background-color;
   opacity: 0.9;
-  padding: 50px 10px;
+  padding: 0px;
 
   div {
     align-items: center;
@@ -31,9 +32,7 @@ body {
   }
 
   ul {
-    list-style: none;
     margin: 0;
-    padding: 0;
     text-align: right;
   }
 
