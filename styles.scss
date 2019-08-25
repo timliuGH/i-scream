@@ -7,7 +7,6 @@ $content-background-color: #edece4;
 }
 
 body {
-  //background-color: #fcc7f8;
   background-image: url("images/cones copy.jpg");
   background-size: cover;
   font-family: 'Libre Baskerville', serif;
@@ -45,4 +44,9 @@ body {
   .row {
     padding: 20px;
   }
+}
+
+#what-div {
+    opacity: 1;
+    text-align: center;
 }
