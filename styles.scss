@@ -15,6 +15,9 @@ body {
 .nav {
   background-color: #f5f2e1;
   opacity: 0.8;
+  a {
+    color: #e39ae0;
+  }
 }
 
 .jumbotron {
@@ -47,6 +50,42 @@ body {
 }
 
 #what-div {
-    opacity: 1;
-    text-align: center;
+  opacity: 1;
+  text-align: center;
+}
+
+%footer-boxes {
+  border: 1px solid #f5f2e1;
+  padding: 50px;
+  text-align: center;
+  a {
+    color: black;
+  }
+}
+
+#footer .col:first-child {
+  @extend %footer-boxes;
+  font-size: 70px;
+  letter-spacing: 20px;
+  a:hover {
+    color: #a8edb0;
+  }
+}
+
+#footer .col:nth-child(2) {
+  @extend %footer-boxes;
+  font-size: 60px;
+  letter-spacing: 15px;
+  a:hover {
+    color: #abd5ed;
+  }
+}
+
+#footer .col:last-child {
+  @extend %footer-boxes;
+  font-size: 80px;
+  letter-spacing: 20px;
+  a:hover {
+    color: #fa8cb1;
+  }
 }
